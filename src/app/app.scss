@@ -1,0 +1,16 @@
+ion-app.md [padding] {
+    padding: 0px;
+    background-image: url('../assets/imgs/background.png');
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+.transparente {
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}

@@ -1,0 +1,42 @@
+<ion-header>
+    <ion-navbar color="lilas">
+        <ion-title>Home</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+    <ion-list>
+        <ion-item *ngFor="let item of items">
+            {{ item }}
+        </ion-item>
+    </ion-list>
+    <h2>Destaques</h2>
+    <ion-card class="transparente">
+        <img src="../../assets//imgs/Screenshot_1.png" />
+        <ion-item class="transparente">
+            Festa
+        </ion-item>
+    </ion-card>
+    <h3>Vistos recentemente</h3>
+    <ion-card class="transparente">
+        <img src="../../assets//imgs/Screenshot_4.png" />
+        <ion-item class="transparente">
+            Festa
+        </ion-item>
+    </ion-card>
+    <h3>Favoritos</h3>
+    <ion-card class="transparente">
+        <img src="../../assets//imgs/Screenshot_3.png" />
+        <ion-item class="transparente">
+                Festa
+            </ion-item>
+    </ion-card>
+    <h3>Mais badalados</h3>
+    <ion-card class="transparente">
+        <img src="../../assets//imgs/Screenshot_2.png" />
+        <ion-item class="transparente">
+                Festa
+            </ion-item>
+    </ion-card>
+</ion-content>

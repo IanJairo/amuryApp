@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar color="lilas">
+    <ion-title>
+      <h2>Cadastre-se</h2>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item>
+      <p style="color:red;">{{mensagem}}</p>
+    </ion-item>
+    <ion-item class="transparente">
+      <ion-input placeholder="Nome" type="text" [(ngModel)]="account_nome" name="name"></ion-input>
+    </ion-item>
+
+    <ion-item class="transparente">
+      <ion-input placeholder="Email" type="email" [(ngModel)]="account_email" name="email"></ion-input>
+    </ion-item>
+
+    <ion-item class="transparente">
+      <ion-input placeholder="CPF" type="text" [(ngModel)]="account_username" name="username"></ion-input>
+    </ion-item>
+
+    <ion-item class="transparente">
+      <ion-input placeholder="Senha" type="password" [(ngModel)]="account_password" name="password"></ion-input>
+    </ion-item>
+    <div padding>
+      <button ion-button color="primary" (click)="cadastrar_cliente()" block round>CADASTRAR</button>
+    </div>
+
+  </ion-list>
+
+</ion-content>

@@ -1,0 +1,36 @@
+<ion-header>
+    <ion-navbar color="lilas">
+        <ion-title>
+            <h2>Entre na sua conta</h2>
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+
+<ion-content padding>
+
+
+
+    <ion-list>
+        <ion-item color="lilas">
+            <p style="color:lightgray;">{{mensagem}}</p>
+        </ion-item>
+        <ion-item class="transparente">
+            <ion-input placeholder="Email" type="text" [(ngModel)]="account_email" name="email"></ion-input>
+        </ion-item>
+        <ion-item class="transparente">
+            <ion-input placeholder="Senha" type="password" [(ngModel)]="account_password" name="Senha"></ion-input>
+        </ion-item>
+
+        <div>
+            <button ion-button color="primary" (click)="login()" block round>Entrar</button>
+        </div>
+    </ion-list>
+
+    <div>
+        <h2>Ainda não possui uma conta?</h2>
+        <button ion-button color="primary" (click)="cadastro()" block round>Cadastrar</button>
+    </div>
+
+</ion-content>
