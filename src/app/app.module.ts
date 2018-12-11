@@ -18,6 +18,8 @@ import { PerfilPage } from '../pages/perfil/perfil';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { AngularFireDatabase } from 'angularfire2/database';
+import { eventos } from '../assets/extra/eventos';
+import { EventoPage } from '../pages/evento/evento';
 
 
 
@@ -37,7 +39,7 @@ var config = {
     ContactPage,
     HomePage,
     TabsPage,
-
+    EventoPage,
     //Acesso e cliente
     LoginPage,
     CadastroPage,
@@ -55,7 +57,7 @@ var config = {
     ContactPage,
     HomePage,
     TabsPage,
-
+    EventoPage,
     //Acesso e cliente
     LoginPage,
     CadastroPage,
@@ -67,9 +69,9 @@ var config = {
   providers: [
     StatusBar,
     SplashScreen,
-    
     AngularFireAuth,
     AngularFireDatabase,
+    eventos,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
 
   ]

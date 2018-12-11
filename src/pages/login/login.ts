@@ -9,6 +9,7 @@ import { CadastroPage } from '../cadastro/cadastro';
 //Firebase
 import { AngularFireAuth } from 'angularfire2/auth';
 import { AngularFireDatabase } from 'angularfire2/database';
+import { HomePage } from '../home/home';
 
 @IonicPage()
 @Component({
@@ -42,6 +43,9 @@ export class LoginPage {
 
   cadastro() {
     this.navCtrl.push(CadastroPage);
+  }
+  convidado(){
+    this.navCtrl.setRoot(TabsPage);
   }
 
   ionViewDidLoad() {
