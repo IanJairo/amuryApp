@@ -17,10 +17,15 @@ export class eventos{
       let eventos = [
         {
           "name": "Tinderfest",
+<<<<<<< HEAD
           "img": "assets/imgs/screenshot_1.png",
           "descri": "II",
           "preco": "25",
           "meia": "12,5"
+=======
+          "img": "assets/imgs/Screenshot_1.png",
+          "descri": "II"
+>>>>>>> merge-branch
         },
         {
           "name": "Baile da fdjfn",
@@ -31,14 +36,14 @@ export class eventos{
         },
         {
           "name": "Alguma coisa Folia",
-          "img": "assets/imgs/screenshot_3.png",
+          "img": "assets/imgs/Screenshot_3.png",
           "descri": "UU",
           "preco": "25",
           "meia": "12,5"
         },
         {
           "name": "McAlguem",
-          "img": "assets/imgs/screenshot_4.png",
+          "img": "assets/imgs/Screenshot_4.png",
           "descri": "EE",
           "preco": "25",
           "meia": "12,5"
