@@ -16,7 +16,7 @@ export class eventos{
       let eventos = [
         {
           "name": "Tinderfest",
-          "img": "assets/imgs/screenshot_1.png",
+          "img": "assets/imgs/Screenshot_1.png",
           "descri": "II"
         },
         {
@@ -26,12 +26,12 @@ export class eventos{
         },
         {
           "name": "Alguma coisa Folia",
-          "img": "assets/imgs/screenshot_3.png",
+          "img": "assets/imgs/Screenshot_3.png",
           "descri": "UU",
         },
         {
           "name": "McAlguem",
-          "img": "assets/imgs/screenshot_4.png",
+          "img": "assets/imgs/Screenshot_4.png",
           "descri": "EE",
         }
       ];

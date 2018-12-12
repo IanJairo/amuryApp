@@ -1,0 +1,28 @@
+<!--
+  Generated template for the CompraPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar color="lilas">
+        <ion-title>Ingresso: {{item.name}}</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-item>
+        <ion-thumbnail item-start>
+            <img src="{{item.img}}" alt="" />
+        </ion-thumbnail>
+        <ion-label>inteira: R${{item.preco}}</ion-label>
+        <ion-checkbox></ion-checkbox>
+    </ion-item>
+    <button ion-button round block (click)="finalizaCompra()">
+    Finalizar comprar
+  </button>
+
+</ion-content>

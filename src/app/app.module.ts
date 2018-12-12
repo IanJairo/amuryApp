@@ -20,6 +20,7 @@ import { AngularFireAuth } from 'angularfire2/auth';
 import { AngularFireDatabase } from 'angularfire2/database';
 import { eventos } from '../assets/extra/eventos';
 import { EventoPage } from '../pages/evento/evento';
+import { FirebaseServicosProvider } from '../providers/firebase-servicos/firebase-servicos';
 
 
 
@@ -72,7 +73,8 @@ var config = {
     AngularFireAuth,
     AngularFireDatabase,
     eventos,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    FirebaseServicosProvider
 
   ]
 })
