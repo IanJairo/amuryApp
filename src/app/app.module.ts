@@ -20,6 +20,7 @@ import { AngularFireAuth } from 'angularfire2/auth';
 import { AngularFireDatabase } from 'angularfire2/database';
 import { eventos } from '../assets/extra/eventos';
 import { EventoPage } from '../pages/evento/evento';
+import { CompraPage } from '../pages/compra/compra';
 
 
 
@@ -40,6 +41,7 @@ var config = {
     HomePage,
     TabsPage,
     EventoPage,
+    CompraPage,
     //Acesso e cliente
     LoginPage,
     CadastroPage,
@@ -58,6 +60,7 @@ var config = {
     HomePage,
     TabsPage,
     EventoPage,
+    CompraPage,
     //Acesso e cliente
     LoginPage,
     CadastroPage,

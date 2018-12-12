@@ -7,7 +7,10 @@
 </ion-header>
 
 <ion-content padding>
-    <ion-item>
-        <ion-icon name="ionic" item-start></ion-icon>
+    <ion-item class="transparente" *ngFor="let item of eventoslist" (click)="abrirEvento(item)">
+        <ion-thumbnail item-start>
+            <img src="{{item.img}}" alt="" />
+        </ion-thumbnail>
+        <ion-label>inteira: R${{item.preco}}</ion-label>
     </ion-item>
 </ion-content>

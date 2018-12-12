@@ -9,8 +9,9 @@
     <ion-navbar color="lilas">
         <ion-title>{{item.name}}</ion-title>
         <ion-buttons end>
-            <ion-icon name="cart" color="primary"></ion-icon>
-            <br>
+            <button round ion-button (click)="compra()">
+                <ion-icon name="cart" ></ion-icon>
+            </button>
         </ion-buttons>
     </ion-navbar>
 
@@ -18,6 +19,7 @@
 
 
 <ion-content padding>
+
     <div>
         <img src="{{item.img}}" alt="" />
     </div>

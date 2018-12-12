@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { eventos } from '../../assets/extra/eventos';
+import { CompraPage } from '../compra/compra';
 
 /**
  * Generated class for the EventoPage page.
@@ -22,6 +23,13 @@ export class EventoPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad EventoPage');
+  }
+  compra(){
+    //pagina de comprar o evento
+    
+    this.navCtrl.push(CompraPage, {
+      item: this.item
+    });
   }
 
 }
